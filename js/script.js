@@ -11,4 +11,4 @@ for (var i = 0; i < listaCognomi.length; i++) {
   contenutoPrecedente = outputCognomi.innerHTML;
   outputCognomi.innerHTML = contenutoPrecedente + '<li>' + listaCognomi[i] + '</li>';}
 
-  document.getElementById('posizione').innerText = 'La posizione é:' + listaCognomi.indexOf(newCognome);
+  document.getElementById('posizione').innerText = 'La posizione é:' + (listaCognomi.indexOf(newCognome)+1);
